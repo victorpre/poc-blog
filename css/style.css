@@ -6,6 +6,22 @@
  * Made By MaterializeCSS.com
  */
 
+.nav-wrapper {
+  z-index: 150;
+}
+
+.main-nav {
+  height: 64px;
+    z-index: 150;
+  margin-bottom: -64px;
+    position: fixed;
+  top: 0;
+}
+
+.adjust-index{
+  z-index:0 !important;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -44,7 +60,15 @@ p {
     top: 0;
   }
 }
+@media screen and (max-width : 1250px ){
+    .container {
+        width: 98%;
+    }
+}
 
+.section {
+  padding-top: 50px;
+}
 
 .icon-block {
   padding: 0 15px;
@@ -52,4 +76,42 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.hoverable {
+	overflow: hidden;
+}
+
+.hoverable:hover .card-image img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.card-image img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+a.post-link {
+  text-decoration: none;
+}
+
+.post-description {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.card-title {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.chip {
+  color: #26a69a;
+  background: white;
+  border: #26a69a solid 1px;
+}
+
+.chip:hover {
+  background: #26a69a;
+  color: #fff;
+  border: #e4e4e4 solid 1px;
 }
