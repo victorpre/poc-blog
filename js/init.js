@@ -1,10 +1,9 @@
 (function($){
   $(function(){
+    //$('.button-collapse').sideNav();
+    //$('.parallax').parallax();
 
-    $('.button-collapse').sideNav();
-
-    $('.parallax').parallax();
-
+    // Masonry Grid
     var $container = $('#masonry-grid');
     // initialize
     $container.masonry({
