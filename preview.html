@@ -7,22 +7,18 @@
 
   <!-- CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.html">Home</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav class="z-depth-5" role="navigation">
+      <div class="nav-wrapper main-nav brown lighten-1">
+        <a href="#" class="brand-logo">@victorpre</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="" href="index.html">Home</a></li>
+        </ul>
 
   <div class="section no-pad-bot">
     <div class="container">
@@ -42,10 +38,24 @@
           <div class="card">
             <div class="card-image">
               <img src="background1.jpg">
-              <span class="card-title">Card Title</span>
             </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
+
+						<div class="btn-menu" style="padding:0px">
+							<div class="fixed-action-btn horizontal click-to-toggle" style="position:relative; float:right; bottom:30px; right:10px; z-index: 1">
+								<a class="btn-floating btn-large teal lighten-1 z-depth-4">
+									<i class="large material-icons">share</i>
+								</a>
+								<ul>
+									<li><a class="btn-floating light-blue darken-4"><i class="material-icons">format_quote</i></a></li>
+									<li><a class="btn-floating light-blue darken-1"><i class="material-icons">insert_chart</i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="card-content">
+              <span class="grey-text text-lighten-1">23 de agosto de 2017</span>
+              <a class="post-link" href="#blos-post"><span class="flow-text card-title"><b>This is a card with a very very long Card Title</b></span></a>
+              <a class="post-link" href="#blos-post">
+                <p class="post-description">I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-action">
@@ -58,9 +68,9 @@
           <div class="card">
             <div class="card-image">
               <img src="background1.jpg">
-              <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
+              <span class="card-title">Card Title</span>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
             </div>
