@@ -41,9 +41,10 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -70,8 +71,8 @@ p {
     }
 }
 
-.section {
-  padding-top: 50px;
+section {
+    margin-top: 25px;
 }
 
 .icon-block {
@@ -148,10 +149,11 @@ a.post-link {
     width: auto;
     position: relative;
     display: inline-block;
+    padding: 50px 0 0 0;
 }
 
 .post > .row {
-    padding-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .share > .s12 >.s10{
