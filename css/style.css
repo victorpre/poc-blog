@@ -150,4 +150,61 @@ a.post-link {
     display: inline-block;
 }
 
+.post > .row {
+    padding-bottom: 50px;
+}
 
+.share > .s12 >.s10{
+    border-top: 1px solid #f2f2f2;
+    padding-top: 20px;
+}
+
+.fb-color {
+    background-color: #3b5998;
+}
+
+.btn-floating:hover {
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3), 0 1px 7px 0 rgba(0,0,0,0.3), 0 3px 1px -1px rgba(0,0,0,0.3);
+}
+
+.fb-color:hover {
+    background-color: #3b5998;
+}
+
+.fb-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/facebook.svg)  no-repeat;
+    mask: url(../icons/facebook.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.twitter-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/twitter.svg)  no-repeat;
+    mask: url(../icons/twitter.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.twitter-color {
+    background-color: #55acee;
+}
+
+.twitter-color:hover {
+    background-color: #55acee;
+}
+
+.btn-white {
+    background-color: white;
+}
