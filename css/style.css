@@ -159,8 +159,17 @@ a.post-link {
     padding-top: 20px;
 }
 
+.share-header {
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .fb-color {
     background-color: #3b5998;
+}
+
+.btn-floating {
+    margin: 0 10px 0 10px;
 }
 
 .btn-floating:hover {
