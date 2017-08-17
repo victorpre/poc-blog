@@ -65,8 +65,15 @@ p {
     font-size: 35px;
   }
 }
+
 @media screen and (max-width : 1250px ){
-    .container {
+    .blog-posts {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width : 768px ){
+    .container-main {
         width: 98%;
     }
 }
