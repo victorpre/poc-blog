@@ -226,6 +226,45 @@ a.post-link {
     mask-position: center;
 }
 
+.github-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/github.svg)  no-repeat;
+    mask: url(../icons/github.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.instagram-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/instagram.svg)  no-repeat;
+    mask: url(../icons/instagram.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/linkedin.svg)  no-repeat;
+    mask: url(../icons/linkedin.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
 .twitter-color {
     background-color: #55acee;
 }
