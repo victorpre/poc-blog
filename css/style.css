@@ -51,6 +51,7 @@ p {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -63,6 +64,16 @@ p {
 
   .post-title {
     font-size: 35px;
+  }
+
+  .author-img {
+    width: 50%;
+    padding-bottom: 5px;
+  }
+
+  .author-info {
+    margin-top: -25px !important;
+    text-align: center;
   }
 }
 
@@ -229,16 +240,16 @@ a.post-link {
 
 .author-img {
     max-width: 70% !important;
-    padding: 20px 0 25px 0;
+    padding: 50px 0 25px 0;
     display: block;
     margin: 0 auto;
 }
 
-.author-description {
+.author-info {
     margin-top: 25px;
 }
 
-.author-description h5 {
+.author-info h5 {
     color: #ececec;
     font-weight: 300;
     margin-bottom: 0px;
@@ -247,4 +258,18 @@ a.post-link {
 .author-name {
     font-weight: 600;
     margin: 0px;
+}
+
+.author-description {
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.social-media-icon {
+    padding-right: 20px;
+}
+
+.social-media-icon > .btn-white:hover {
+    background-color: grey;
 }
