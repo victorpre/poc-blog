@@ -274,6 +274,7 @@ a.post-link {
 }
 
 .btn-white {
+    transition: background-color 0.7s ease;
     background-color: white;
 }
 
