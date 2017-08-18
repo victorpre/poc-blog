@@ -41,15 +41,17 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -59,15 +61,36 @@ p {
   #index-banner .section {
     top: 0;
   }
+
+  .post-title {
+    font-size: 35px;
+  }
+
+  .author-img {
+    width: 50%;
+    padding-bottom: 5px;
+  }
+
+  .author-info {
+    margin-top: -25px !important;
+    text-align: center;
+  }
 }
+
 @media screen and (max-width : 1250px ){
-    .container {
+    .blog-posts {
         width: 98%;
     }
 }
 
-.section {
-  padding-top: 50px;
+@media screen and (max-width : 768px ){
+    .container-main {
+        width: 98%;
+    }
+}
+
+section {
+    margin-top: 25px;
 }
 
 .icon-block {
@@ -114,4 +137,179 @@ a.post-link {
   background: #26a69a;
   color: #fff;
   border: #e4e4e4 solid 1px;
+}
+
+
+.main-top{
+    padding-top: 120px;
+}
+
+#top-bar {
+    background: #d7ccc8; /**/
+    height:200px;
+    float:left;
+    width:100%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.container-main {
+    position:relative;
+}
+
+.content {
+    background-color: #fff;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 2px;
+    overflow: hidden;
+    z-index: 9;
+    margin-top: -120px;
+    margin-bottom:50px;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    padding: 50px 0 0 0;
+}
+
+.post > .row {
+    margin-bottom: 0px;
+}
+
+.share > .s12 >.s10{
+    border-top: 1px solid #f2f2f2;
+    padding-top: 20px;
+}
+
+.share-header {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fb-color {
+    background-color: #3b5998;
+}
+
+.btn-floating {
+    margin: 0 10px 0 10px;
+}
+
+.btn-floating:hover {
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3), 0 1px 7px 0 rgba(0,0,0,0.3), 0 3px 1px -1px rgba(0,0,0,0.3);
+}
+
+.fb-color:hover {
+    background-color: #3b5998;
+}
+
+.fb-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/facebook.svg)  no-repeat;
+    mask: url(../icons/facebook.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.twitter-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/twitter.svg)  no-repeat;
+    mask: url(../icons/twitter.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.github-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/github.svg)  no-repeat;
+    mask: url(../icons/github.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.instagram-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/instagram.svg)  no-repeat;
+    mask: url(../icons/instagram.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 54px;
+    -webkit-mask: url(../icons/linkedin.svg)  no-repeat;
+    mask: url(../icons/linkedin.svg)  no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.twitter-color {
+    background-color: #55acee;
+}
+
+.twitter-color:hover {
+    background-color: #55acee;
+}
+
+.btn-white {
+    transition: background-color 0.7s ease;
+    background-color: white;
+}
+
+.author-img {
+    max-width: 70% !important;
+    padding: 50px 0 25px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.author-info {
+    margin-top: 25px;
+}
+
+.author-info h5 {
+    color: #ececec;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.author-name {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.author-description {
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.social-media-icon {
+    padding-right: 20px;
+}
+
+.social-media-icon > .btn-white:hover {
+    background-color: grey;
 }
