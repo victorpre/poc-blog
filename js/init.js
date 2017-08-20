@@ -26,8 +26,19 @@
       edge: 'left', // Choose the horizontal origin
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     });
-	$('.button-collapse').click(function(){
+
+    $('.button-collapse').click(function(){
       adjustIndex();
+    });
+
+    // Change sharing icon when menu is opened
+    $(".click-to-toggle").click(function(){
+      var icon = $(this).find(".btn-floating > i");
+      if ($(this).hasClass('active')) {
+          icon.text("share");
+      }else{
+          icon.text("clear");
+      }
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
